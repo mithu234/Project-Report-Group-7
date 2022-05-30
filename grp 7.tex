@@ -6,6 +6,9 @@
 \usepackage{algorithmic}
 \usepackage{listings}
 \usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{ragged2e}
 
 
 \hypersetup{colorlinks,linkcolor=black,citecolor=black,filecolor=black,linkcolor=black,urlcolor=black}
@@ -38,6 +41,63 @@
 
 
 
+\vspace*{0.001cm}
+\begin{center}\large \textbf{A CRYPTOCURRENCY WALLET}
+ \end{center} 
+\vspace{0.17cm}
+ \begin{center}\textbf{A PROJECT REPORT}\end{center}
+\vspace*{0.001cm}
+\begin{center}submitted by\end{center}
+\vspace*{0.001cm}
+\begin{center}
+\begin{tabular}{l l}
+\bf{HAWA AFLINA} & \bf{DMC18CS015} \\
+\bf{MUHAMMAD MIDLAJ} & \bf{DMC18CS017} \\
+\bf{MUHAMMED NUAMAN SADIQ} & \bf{DMC18CS018} \\
+\bf{SHELGA SHABOOM} & \bf{DMC18CS022} \\
+
+\end{tabular}
+\end{center}
+\vspace*{0.001cm}
+\begin{center}\bf{To} \end{center}
+\vspace*{0.001cm}
+\begin{center}The APJ Abdul Kalam Technological University \\
+In partial fulfillment of the requirements for the award of the Degree\end{center}
+\vspace{0.001cm}
+\begin{center}Of\end{center}
+\vspace*{0.001cm}
+\begin{center}Bachelors of Technology \\ In\\
+\emph{Computer Science and Engineering}\end{center}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.5]{MDIT1}
+\end{center} 
+\end{figure}
+\vspace{0.001cm}
+\thispagestyle{empty}
+\begin{center}\large \bf{M Dasan Institute of Technology (MDIT) \\
+Ulliyeri P.O, Kozhikode-673620} \end{center}
+\vspace*{0.001cm}
+\begin{center}Department of Computer Science and Engineering \end{center}
+\vspace{0.001cm}
+\begin{center}MAY 2022\end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \newpage
@@ -51,7 +111,7 @@
 We undersigned declare that the project report “A CRYPTOCURRENCY WALLET”, submitted for the partial fulfillment of the requirements for
 the award of the degree of the Bachelors of Technology under the university of
 the APJ Abdul Kalam Technological University, Kerala is a bonafide work,
-done by us under the supervision of the Ms.Rafeeda K (Asst Prof). This
+done by us under the supervision of the Ms.Ambili Antharjanam (Asst Prof). This
 submission represents our ideas in our own words and where ideas or words
 of others have been included; We have adequately and accurately cited and
 referenced the original sources. We also declare that we have adhered to ethics
@@ -71,10 +131,73 @@ the award of any degree, diploma or similar title of any other university.
 \\
 \\
 \\
-\\
-\\
-\\
- HAWA \hspace{1.7mm}SHELGA \hspace{1.7mm}  MIDLAJ\hspace{1.7mm}  NUAMAN SADIQ
+\begin{center}HAWA AFLINA\end{center}\vspace{-6mm}
+\begin{center}MUHAMMAD MIDLAJ\end{center}\vspace{-7mm}
+\begin{center}MUHAMMED NUAMAN SADIQ\end{center}\vspace{-7mm}
+\begin{center}SHELGA SHABOOM\end{center}\vspace{-7mm}
+
+
+
+\thispagestyle{empty}
+
+\newpage
+\vspace*{1px}
+\begin{center}\large\bf{M.DASAN INSTITUTE OF TECHNOLOGY}\end{center}
+\begin{center}\large\bf{ULLIYERI} \end{center}
+\begin{center}Approved by AICTE, New Delhi \& Affiliated to APJ Abdul Kalam Technological University\end{center}
+\begin{center}(KTU)\end{center}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.4]{MDIT1}
+\end{center} 
+\end{figure}
+\begin{center}\LARGE\bf{CERTIFICATE} \end{center}
+\vspace{5mm}
+\justifying
+This is to certify that the report entitled “A CRYPTOCURRENCY WALLET” by “HAWA AFLINA” (DMC18CS015), “MUHAMMAD MIDLAJ” (DMC18CS017), “MUHAMMED NUAMAN SADIQ“ (DMC18CS018)and “SHELGA SHABOOM” (DMC18CS022) to the APJ Abdul Kalam Technological University in partial fulfillment of the requirements for the award of the Degree of Bachelors of Technology in Computer Science Engineering is a bonafide of seminar carried by his under our guidance and supervision. This report in any form not been submitted to any other University or Institute of any purpose.
+\thispagestyle{empty}
+\begin{center}
+\begin{tabularx}{1\textwidth} { 
+  >{\raggedright\arraybackslash}X 
+   >{\raggedright\arraybackslash}X 
+   >{\raggedright\arraybackslash}X }
+ 
+\\  \\ \\ 
+
+Project Guide & Project Coordinator & Head of The Department  \\  
+Ms. AMBILI ANTHARJANAM  & Ms. RAMITHA  M A & Ms. NITHYA V P \\ 
+Asstistant Professor  & Asstistant Professor &Asstistant Professor \\ 
+Dept. of CSE & Dept. of CSE & Dept. of CSE   
+
+
+
+
+
+
+
+
+
+
+
+\end{tabularx}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \newpage
@@ -85,7 +208,7 @@ the award of any degree, diploma or similar title of any other university.
 it goes without saying that without them, We would not be where we are today. \\
 \par We would like to place on record, sincere thanks to all those who have
 contributed to the successful completion of this project\\
-\par We recollect with of gratitude the valuable guidance and the whole hearted support of \textbf{Ms. Ambili antharjanam K} (Asst Prof) Department of CSE our internal guide. We are very grateful to our project Coordinator\textbf{ Ms. Ramitha M A} (Asst Prof) and the Head of the department\textbf{ Ms. Nithya V P}, CSE Department for their valuable suggestions throughout the project work\\
+\par We recollect with of gratitude the valuable guidance and the whole hearted support of \textbf{Ms. Ambili antharjanam } (Asst Prof) Department of CSE our internal guide. We are very grateful to our project Coordinator\textbf{ Ms. Ramitha M A} (Asst Prof) and the Head of the department\textbf{ Ms. Nithya V P}, CSE Department for their valuable suggestions throughout the project work\\
 \par We wish to express the deep sense of gratitude and the thanks to the Principal \textbf{Mr. Maheesan P M} and Director\textbf{ Mr. H. Ahinus} for the excellent facilities and continual support provided during the course study and project work. \\
 \par We thank all the staff members of Computer Science and Engineering Department for their valuable suggestions. \\
 \par We also thank all beloved friends for their encouragement, timely help and suggestions.\\
@@ -313,12 +436,12 @@ chain. Since signatures occur with varying frequencies and
 codes are deployed in different numbers, this ratio increases
 to 89 \% when picking a deployed contract at random.
 \par
-We define a wallet as a contract that only manages assets.
+They define a wallet as a contract that only manages assets.
 In contrast, contracts that serve other purposes as well beyond
 managing assets are termed non-wallet contracts.
 Our two-step approach identifies potential wallet contracts
 and then checks if the bytecode actually implements a wallet.
-In step 1, we first collect the set of blueprints. We start with
+In step 1, we first collect the set of blueprints. They start with
 a few known wallets that have Solidity sources.
 
  
@@ -402,13 +525,13 @@ popular digital wallets in Google Play Store. Finally, we
 present several security defense strategies in response to the
 security risks.
 \par
- We identify security vulnerabilities in several popular
+ They identify security vulnerabilities in several popular
 cryptocurrency wallets in Google Play Store, which
 could be exploited by malicious attackers.
- We design several proof-of-concept attacks based on
+ They design several proof-of-concept attacks based on
 the identified vulnerabilities, and our attack experiments
 demonstrate the validity of our analysis.
- We suggest corresponding security measures to reduce
+ They suggest corresponding security measures to reduce
 the attack surface.
 
 
@@ -417,7 +540,7 @@ the attack surface.
 \newpage
 \subsubsection{Working}
 
-\par we consider cryptocurrencies that are implemented with decentralized control, typically based on
+\par They consider cryptocurrencies that are implemented with decentralized control, typically based on
 the blockchain technology. Cryptocurrency wallets are the
 applications specifically used to manage the digital assets,
 including creating account address, managing cryptocurrency
@@ -449,7 +572,7 @@ computer to operate on the user’s device if malware has been
 installed in the computer. Meanwhile, the user will not receive
 any notification. The parameter android:allowBackup=true in
 the AndroidManifest.xml profile, which is included in every
-app, is true by default. If it is set to false, we cannot back up
+app, is true by default. If it is set to false, They cannot back up
 the app’s data by the adb command backup. Even if that does
 not work, an attacker could also attempt to get local backup
 files on the mobile device. Some local backup implementations may ignore the android:allowBackup=false configuration in the Android Manifest.xml profile. In the Android-based
@@ -542,7 +665,7 @@ binding trading agreements, to their fulfilment and payment
 settlement. We show that by using blockchain technology and
 Smart Contracts in particular, we can offer participants a tradeoff between the cost of transactional data exchange, and the
 risk of data loss when trading with untrusted third parties.
-We experimentally assess such trade-offs on a testbed using
+They experimentally assess such trade-offs on a testbed using
 Ethereum Smart Contracts.
 
 \subsubsection{Introduction}
@@ -771,12 +894,12 @@ and (iii) each data receipt.
 \newpage
 \subsection{G2R Crypto Wallet using Indian language Mnemonics }
 
-We present the design of a G2R Crypto Wallet
+They present the design of a G2R Crypto Wallet
 here. BIP39 uses random mnemonics. The mnemonic
 library is added as a separate .bsv file. The bsv file contains
 word lists from varied languages – English, Japanese,
 Spanish, French, Italian, Portuguese, Russian etc. But it
-does not contain any Indian language mnemonics. We have
+does not contain any Indian language mnemonics. They have
 created .bsv files for Hindi and Tamil language. In this
 paper we present how Indian language mnemonics are
 created and the design of a G2R crypto wallet. G2R crypto
@@ -1092,7 +1215,7 @@ actual usage of smart contracts in general and wallet contracts
 in particular. This may concern users, investors, companies,
 developers, and regulators. To facilitate assessment, we seek
 methods for detecting, classifying and monitoring the rapidly
-growing ecosystem around crypto assets. Specifically, we
+growing ecosystem around crypto assets. Specifically, they
 extract a comprehensive collection of blueprints for wallet
 contracts and thereby compile a ground truth. Moreover, the
 wallet blueprints and the features they implement may serve
@@ -1235,7 +1358,7 @@ found at [29], [30]\\
 mechanism for arbitrary transactions, recovery mechanisms for
 lost keys, modular extension of features, or advanced token
 standards.
-\par we examine the usage of wallets, differentiate token holdings, and discuss the role of wallets within the
+\par they examine the usage of wallets, differentiate token holdings, and discuss the role of wallets within the
 smart contracts landscape.\\
 The 10 M blocks of the Ethereum main chain contain
 697.4 M transactions, which gave rise to 1 761 M messages
